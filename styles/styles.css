@@ -14,7 +14,6 @@
     font-size: 50px;
 
 }
-
 body{
 
 }
@@ -54,6 +53,7 @@ body{
 .primary-button {
     
     font-size: 16;
+    font-weight: bold;
     background-color: darkorange;
     color: #FFFFFF ;
     border-radius: 10px;
@@ -71,15 +71,32 @@ body{
     display: block;
     margin: auto;
 }
-
-
 .discount-section {
 
 }
 .discount-section-container {
-    background-color: aqua;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 116px;
     margin-bottom: 116px;
     height: 328px;
-    
+    width: 1140px;
 }
+.discount-title {
+    font-size: 42px;
+}
+.discount-description {
+    color:#252432;
+    font-size: 24px;
+    opacity: 50%;
+}
+.show-discounted-products-button {
+
+}
+.discount-section-container img {
+    width: 403px;
+    height: 328px;
+}
+
