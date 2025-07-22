@@ -64,11 +64,22 @@ body{
     padding-bottom: 12px;
 
 }
-
 .header-banner-text {
   text-align: center;
 }
 .explore-button {
     display: block;
     margin: auto;
+}
+
+
+.discount-section {
+
+}
+.discount-section-container {
+    background-color: aqua;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    height: 328px;
+    
 }
