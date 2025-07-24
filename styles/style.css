@@ -152,6 +152,7 @@ body{
     height: 243px;
     background-color: white;
     border-radius: 14px;
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);;
     
 }
 .review-star
@@ -188,4 +189,45 @@ body{
     height:400px;
     margin-top: 10px;
     border-radius: 48px;
+}
+.message-us-container {
+
+    width: 1140px;
+    height: 632px;
+    margin:auto;
+    display: flex;
+   
+}
+.message-us-contents {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
+}
+.message-us-contents h1{
+    font-size: 97px;
+}
+.message-us-contents input {
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.message-us-contents input::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#message-input {
+    height: 135px;
+
 }
