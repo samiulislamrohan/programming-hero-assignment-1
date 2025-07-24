@@ -73,9 +73,7 @@ body{
     display: block;
     margin: auto;
 }
-.discount-section {
 
-}
 .discount-section-container {
     margin: auto;
     display: flex;
@@ -97,6 +95,7 @@ body{
 .discount-section-container img {
     width: 403px;
     height: 328px;
+    border-radius: 48px;
 }
 .order-user-info-container {
     display: flex;
@@ -157,17 +156,42 @@ body{
     box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
     
 }
+.reviewer-img {
+    width: 50px;
+    border-radius: 50%;
+}
 .review-star
 {
     color:#FFB805;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-left:50px;
 
 }
 .user-review-single-card h3 {
     margin-left: 50px;
 }
-.user-review-single-card p {
+.review-comment {
     margin-left: 50px;
+    margin-bottom: 0px;
+}
+.user-review-single-card img {
+    margin-left: 50px;
+}
+.review-info {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.review-info-text {
+    margin-left:12px;
+}
+.reviewer-name {
+    margin-bottom:1px;
+    opacity: 50%;
+}
+.review-date {
+    margin-top:1px;
+    opacity: 50%;
 }
 .career-section-container {
     background-color: white;
@@ -194,6 +218,7 @@ body{
 }
 .message-us-container {
 
+    
     width: 1140px;
     height: 632px;
     margin:auto;
@@ -212,7 +237,8 @@ body{
     
 }
 .message-us-contents h1{
-    font-size: 97px;
+    font-size: 95px;
+    text-align: left;
 }
 .message-us-contents input {
     width: 497px;
@@ -224,16 +250,25 @@ body{
     margin-bottom: 10px;
     
 }
+.textarea-msg {
+    width: 497px;
+    border-radius: 10px;
+    border: none;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 135px;
+}
 .message-us-contents input::placeholder {
     padding-left: 10px;
     font-size: 20px;
 }
-
-#message-input {
-    height: 135px;
-
-
+.message-us-contents textarea::placeholder {
+    padding-left: 10px;
+    font-size: 20px;
 }
+
+
 .footer-container {
     width: 100%;
     height: 428px;
