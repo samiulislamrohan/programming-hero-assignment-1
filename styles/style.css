@@ -20,7 +20,7 @@ body{
 }
 .header-container {
 
-    background-image: url('/images/Hero-bg.png');
+    background-image: url('images/Hero-bg.png');
     height: 698px;
 }
 .header-top {
