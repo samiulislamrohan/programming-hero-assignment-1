@@ -66,6 +66,22 @@ body{
     padding-bottom: 12px;
 
 }
+.primary-button:hover {
+    
+    font-size: 16;
+    font-weight: bold;
+    background-color:bisque;
+    color: black ;
+    border-radius: 10px;
+    border:none;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    
+
+}
 .header-banner-text {
   text-align: center;
 }
@@ -227,6 +243,7 @@ body{
 }
 .message-us-contents {
 
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -240,6 +257,10 @@ body{
     font-size: 95px;
     text-align: left;
 }
+.message-us-contents form {
+ width: 497px;
+ height: 490px;
+}
 .message-us-contents input {
     width: 497px;
     height: 70px;
@@ -251,13 +272,18 @@ body{
     
 }
 .textarea-msg {
-    width: 497px;
+    resize: none;
     border-radius: 10px;
+    width: 497px;
     border: none;
     box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right:0px;
+    min-height: 135px;
+    padding-right: 0px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    height: 135px;
+   
+   
+  
 }
 .message-us-contents input::placeholder {
     padding-left: 10px;
